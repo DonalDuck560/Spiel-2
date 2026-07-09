@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Frontline 2D: Mobile</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="game-container">
+        <header id="hud">
+            <span class="hud-text">📍 <strong id="location-display">Boot</strong></span>
+            <span class="hud-text">❤️ HP: <strong id="hp-display">100</strong></span>
+        </header>
+        
+        <canvas id="gameCanvas"></canvas>
+        
+        <div id="touch-instructions">Tippe oder wische auf dem Bildschirm, um den Soldaten zu bewegen!</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
